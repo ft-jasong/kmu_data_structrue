@@ -28,7 +28,6 @@ class Binary:
 			add_.insert(0, carry)
 		return Binary(add_)
 
-
 *data, = "110101011"
 *data, = map(int, data)
 b2 = Binary(data)
